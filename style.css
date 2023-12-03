@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: antiquewhite;
+    color: rgb(62, 55, 55);
+    font-family: "Borel",cursive;
+    background-image:url(back2.avif);
+    background-repeat: no-repeat;
+
+}   
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color:#BAD9BC;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+}
+nav ul li a{
+    font-size: large;
+    }
+nav ul li a:hover{
+    color:rgb(13, 12, 12);
+    
+}
+img {
+    width: 100px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    
+
+    align-items: center;
+}
+.firstsection > div{
+    width: 30%;
+
+}
+.leftsection{
+    margin: 50px 0;
+
+
+    font-size:20px;
+    cursor: pointer;
+    padding: 12px;
+}
+.rightsection img{
+    width: 120%;
+    padding-left: 30px;
+    opacity: 60%;
+    
+}
+.rightsection{
+    margin: 90px;
+}
+.leftsection ul li ol li{
+    list-style-type: none;
+    display: flex;
+
+}footer 
+{
+    background-color:#BAD9BC;
+}
+.footer 
+{
+    display: flex;
+    
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+footer .footer-rights 
+{
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
+.leftsection ul li a{
+    text-decoration: none;
+    color: black;
+}
+.leftsection ul li a:hover{
+    font-size: 1.3rem;
+}
+body section div h1{
+    font-size: 50px;
+    margin-left:-10%;
+    margin-top: -5%;
+}
+.right ul li a{
+    font-size: 30px;
+}
+.left img{
+    opacity:85%;
+    margin: -41.25%;
+    margin-left: -50%;
+}
+
+
+
